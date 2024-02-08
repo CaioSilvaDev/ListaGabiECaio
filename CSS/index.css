@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&family=Work+Sans&display=swap");
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border-bottom: 2px solid #95eae0; */
+}
+#principal-imagem {
+  height: 250px;
+  width: 270px;
+  border-radius: 100%;
+  margin: 20px;
+}
+#principal-texto {
+  width: 400px;
+  text-align: center;
+  margin: 10px;
+  font-family: "Roboto", sans-serif;
+  color: #020904;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 20px;
+}
+.secundario {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  background-color: #ffffff;
+}
+.terciario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 80px 20px 80px 20px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+.terciario:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px 5px grey;
+}
+.secundario-imagens {
+  height: 150px;
+  width: 130px;
+}
+.botoes {
+  background-color: #62fac0;
+  text-align: center;
+  min-width: 170px;
+  color: #081d2b;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: "roboto", sans-serif;
+  transition: 0.4s;
+  font-size: 14px;
+  margin-top: 100px;
+  text-decoration: none;
+}
+.botoes:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px 5px #61736f;
+}
+#texto-solto {
+  color: #020904;
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  font-size: 30px;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 10px;
+}
+.sweetalert-title {
+  font-size: 18px;
+  font-family: "roboto";
+}
+@media (max-width: 1020px) {
+  .terciario {
+    padding: 60px 15px 60px 15px;
+  }
+  #principal-imagem {
+    height: 220px;
+    width: 240px;
+    margin: 17px;
+  }
+  .botoes {
+    font-size: 11px;
+  }
+}
+@media (max-width: 880px) {
+  .terciario {
+    padding: 20px 5px 20px 5px;
+  }
+  #principal-imagem {
+    height: 190px;
+    width: 210px;
+    margin: 15px;
+  }
+  .botoes {
+    font-size: 11px;
+  }
+}
+@media (max-width: 880px) {
+  .secundario {
+    flex-direction: column;
+    align-items: center;
+    padding: none;
+    gap: 20px;
+  }
+  #texto-solto {
+    font-size: 25px;
+  }
+  .terciario {
+    padding: 0;
+  }
+  .botoes {
+    width: 230px;
+    margin-top: 10px;
+  }
+  .secundario-imagens {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media (max-width: 550px) {
+  #principal-texto {
+    width: 300px;
+  }
+  #texto-solto {
+    font-size: 20px;
+  }
+  #principal-imagem {
+    height: 190px;
+    width: 210px;
+  }
+}
+@media (max-width: 400px) {
+  #principal-texto {
+    width: 250px;
+    font-size: 13px;
+  }
+  #principal-imagem {
+    width: 180px;
+    height: 140px;
+  }
+}
