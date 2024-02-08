@@ -5,7 +5,7 @@ botaoPix.addEventListener("click", janelaPix)
 function janelaPix() {
   const PIX = "5ca15a56-1c88-448e-9eca-404bfb141f8b";
   Swal.fire({
-    imageUrl: "",
+    imageUrl: "https://raw.githubusercontent.com/CaioSilvaDev/ListaGabiECaio/main/Imagens/pix.jpeg",
     title: 'Pix: Caio Miguel de Souza Silva',
     showDenyButton: true,
     confirmButtonText: 'Copiar PIX para área de transferência',

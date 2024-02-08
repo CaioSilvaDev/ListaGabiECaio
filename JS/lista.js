@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         title: "Coloque o nome do item na descrição do PIX. ",
         text: `Valor: ${preco}`,
         icon: "info",
-        imageUrl: "",
+        imageUrl: "https://raw.githubusercontent.com/CaioSilvaDev/ListaGabiECaio/main/Imagens/pix.jpeg",
         imageWidth: 200,
         imageHeight: 200,
         confirmButtonText: "OK",
