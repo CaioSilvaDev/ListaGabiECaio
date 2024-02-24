@@ -39,7 +39,7 @@ botaoAlfinete.addEventListener("click", janelaEntrega);
 function janelaEntrega() {
   const CEP = "72873-153";
   Swal.fire({
-    title: 'Residencial Green Park Village V\nBairro: Florais do Planalto\nCEP: 72873-153\nCidade: Valparaíso de Goiás\nUF: GO',
+    title: 'Residencial Green Park Village V\n Casa: 03 Bloco G \nBairro: Florais do Planalto\nCEP: 72873-153\nCidade: Valparaíso de Goiás\nUF: GO',
     showDenyButton: true,
     confirmButtonText: 'Copiar CEP para área de transferência',
     denyButtonText: `Sair`,

@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const itemPreco = this.closest(".item").querySelector(".item-preco");
       const preco = itemPreco.textContent;
       Swal.fire({
-        title: "Coloque o nome do item na descrição do PIX. ",
+        title: `Coloque o nome do item na descrição do PIX. \n \nChave pix: 5ca15a56-1c88-448e-9eca-404bfb141f8b`,
         text: `Valor: ${preco}`,
         icon: "info",
         imageUrl: "https://raw.githubusercontent.com/CaioSilvaDev/ListaGabiECaio/main/Imagens/pix.jpeg",
@@ -25,3 +25,4 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+

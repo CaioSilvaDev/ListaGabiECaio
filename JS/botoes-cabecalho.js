@@ -7,7 +7,7 @@ botaoContato.addEventListener("click", janelaContato);
 function janelaEntrega() {
   const CEP = "72873-153";
   Swal.fire({
-    title: 'Nome: Gabriella da Silva Gomes\n Residencial Green Park Village V\nBairro: Florais do Planalto\nCEP: 72873-153\nCidade: Valparaíso de Goiás\nUF: Goiás',
+    title: 'Nome: Gabriella da Silva Gomes\n Casa: 03 Bloco G \n Residencial Green Park Village V\nBairro: Florais do Planalto\nCEP: 72873-153\nCidade: Valparaíso de Goiás\nUF: Goiás',
     showDenyButton: true,
     confirmButtonText: 'Copiar CEP para área de transferência',
     denyButtonText: `Sair`,
